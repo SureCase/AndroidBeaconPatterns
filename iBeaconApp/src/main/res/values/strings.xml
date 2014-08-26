@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iBeacon Patterns</string>
+
+    <string name="btnSetup">Setup Beacon</string>
+    <string name="btnClassicPattern">Classic</string>
+    <string name="btnKalmanPattern">Kalman Pattern</string>
+    <string name="btnSmoothingPattern">Smoothing Pattern </string>
+    <string name="btnSettings">Settings</string>
+
+    <string name="setup_hint">Tap beacon image to set your beacon...</string>
+    <string name="setup_bottom_hint">Put beacon close to your device</string>
+    <string name="setup_status_not_found">Beacon not found</string>
+    <string name="setup_status_found">Beacon found</string>
+    <string name="setup_status_too_much">Too much beacons</string>
+    <string name="setup_confirm">Beacon data saved</string>
+
+    <string name="details_region_measurement_paterns">Region Measurement Patterns:</string>
+    <string name="details_current_beacon">Currently set beacon:</string>
+    <string name="details_major">Major: ---</string>
+    <string name="details_minor">Minor: ---</string>
+    <string name="details_ditance">Distance</string>
+    <string name="details_filtered_parameter">Filtered Parameter:</string>
+    <string name="details_region">Region:</string>
+    <string name="details_higher">Higher threshold:</string>
+    <string name="details_lower">Lower threshold:</string>
+    <string name="details_smoothing">Smoothing:</string>
+    <string name="details_higher2">Higher:</string>
+    <string name="details_higher1">Lower:</string>
+
+    <string name="ble_turned_off_title">Bluetooth is turned off</string>
+    <string name="ble_turned_off_message">Unable to see beacons</string>
+
+    <string name="state_far">FAR</string>
+    <string name="state_close">CLOSE</string>
+    <string name="settings_boot">Start beacon track \nservice on device boot</string>
+    <string name="settings_background">Keep beacon track \nservice always in \nbackground</string>
+    <string name="settings_ble_notify">Always notify about \nbluetooth state change</string>
+
+</resources>
